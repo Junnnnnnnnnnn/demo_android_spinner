@@ -49,9 +49,23 @@ class MainActivity : AppCompatActivity() {
             add(hashMapOf("name" to "23살", "tag" to "23"))
         }
 
-        spinner1.adapter = SpinnerAdapter(this@MainActivity, R.layout.spinner_item, peopleList, MyConstant.SPINNER_OPTION1)
-        spinner2.adapter = SpinnerAdapter(this@MainActivity, R.layout.spinner_item, regionList, MyConstant.SPINNER_OPTION2)
-        spinner3.adapter = SpinnerAdapter(this@MainActivity, R.layout.spinner_item, ageList, MyConstant.SPINNER_OPTION2)
+        spinner1.adapter = SpinnerAdapter(
+            this@MainActivity,
+            R.layout.spinner_item,
+            peopleList,
+            MyConstant.SPINNER_OPTION1)
+
+        spinner2.adapter = SpinnerAdapter(
+            this@MainActivity,
+            R.layout.spinner_item,
+            regionList,
+            MyConstant.SPINNER_OPTION2)
+
+        spinner3.adapter = SpinnerAdapter(
+            this@MainActivity,
+            R.layout.spinner_item,
+            ageList,
+            MyConstant.SPINNER_OPTION2)
     }
 
     private fun submitClick(){
@@ -59,7 +73,8 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this@MainActivity,
                 "성별: ${(spinner1.selectedItem as HashMap<*,*>)["name"]}\n" +
                 "거주지: ${(spinner2.selectedItem as HashMap<*,*>)["name"]}\n" +
-                "나이: ${(spinner3.selectedItem as HashMap<*,*>)["name"]}\n", Toast.LENGTH_LONG).show()
+                "나이: ${(spinner3.selectedItem as HashMap<*,*>)["name"]}\n"
+                , Toast.LENGTH_LONG).show()
         }
     }
 
