@@ -3,10 +3,8 @@
 ## ✏️ Study
 
 - https://yotdark.tistory.com/51
-- [](https://yotdark.tistory.com/51)
-
-
-
+- [[Android] 안드로이드 Spinner(스피너) 사용하기 (1)](https://github.com/Junnnnnnnnnnn/android_study/blob/master/List_Spinner/%5BAndroid%5D%20%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20Spinner(%EC%8A%A4%ED%94%BC%EB%84%88)%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0%20(1).md)
+- [[Android] 안드로이드 Spinner(스피너) 사용하기 (2)](https://github.com/Junnnnnnnnnnn/android_study/blob/master/List_Spinner/%5BAndroid%5D%20%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C%20Spinner(%EC%8A%A4%ED%94%BC%EB%84%88)%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0%20(2).md)
 ## 🌍 Setting
 
 - CompileSdk = 30
