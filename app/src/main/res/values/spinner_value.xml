@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="spinner_style_1">
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownWidth">match_parent</item>
+<!--        <item name="android:popupElevation">20dp</item>-->
+<!--        <item name="android:spinnerMode">dropdown</item>-->
+<!--        <item name="android:layout_marginTop">10dp</item>-->
+    </style>
+</resources>
