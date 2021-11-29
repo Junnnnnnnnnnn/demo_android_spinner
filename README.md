@@ -2,6 +2,11 @@
 
 ## ✏️ Study
 
+- https://yotdark.tistory.com/51
+- [](https://yotdark.tistory.com/51)
+
+
+
 ## 🌍 Setting
 
 - CompileSdk = 30
